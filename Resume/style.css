@@ -7,6 +7,13 @@ header {
 	padding-bottom: 10px;
 }
 
+body {
+	font-family: Tahoma;
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 0px;
+}
+
 img {
 	margin: 50px 0px 0px 0px;
 }
@@ -69,19 +76,22 @@ article {
 
 }
 
-body {
-	font-family: Tahoma;
-	font-size: 18px;
-	line-height: 1.5;
-}
-
 hr {
 	margin: 40px 0;
-	
+	max-width: 700px;
+	margin: 0 auto;
 }
 
 nav {
 	color: black;
-	text-align: center;
+	text-align: center;	
+	margin-bottom: 30px;
+	padding-top: 20px;
 
+}
+a{
+	color: black;
+}
+a:active{
+	color: #20B2AA;
 }
