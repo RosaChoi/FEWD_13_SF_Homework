@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .sixty-six-days {
 	background-color: white;
-	height: 1200px;
+	height: 1000px;
 }
 .entry-content {
 	margin-top: 6em;
@@ -94,7 +94,25 @@ p {
 	border-radius: 5px;
 	width: 10em;
 }
-
+.land-of-unlikeness {
+	height: 1300px;
+	background: url(../img/unlikeness.png) center top no-repeat;
+}
+.land-of-unlikeness .wrapper .entry-content h2{
+	color: #d7ddb9;
+	padding-top: 2em;
+}
+.land-of-unlikeness .wrapper .entry-content p {
+	color: #d7ddb9;
+}
+.book-cover img{
+	width: 500px;
+	margin: 4em 24em;
+	position: relative;
+}
+.land-of-unlikeness .wrapper a.view-button {
+	background: #9e3d1e;
+}
 
 
 
