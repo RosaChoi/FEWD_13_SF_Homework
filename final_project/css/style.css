@@ -17,13 +17,12 @@ a:hover {
 img {
 	width: 150px;
 	margin-left: 40px;
-	margin-top: 50px;
-	position: fixed;
+	margin-top: -2em;
 }
 nav ul {
 	list-style-type: none;
 	float: right;
-	margin-top: 4em;
+	margin-top: -2em;
 	margin-right: 40px;
 }
 li { 
@@ -42,10 +41,60 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	font-family: 'Helvetica Neue', sans-serif;
 	font-size: 2.7em;
-	position: fixed;
-	top: 520px;
-	right: 100px;
+	position: relative;
+	top: 540px;
+	left: 16em;
 }
+.sixty-six-days {
+	background-color: white;
+	height: 1200px;
+}
+.entry-content {
+	margin-top: 6em;
+}
+h2 {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 4em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #333;
+	margin-bottom: 1em;
+}
+.proj-description {
+	width: 700px;
+	margin: 0 auto;
+
+}
+p {
+	font-family: "ff-tisa-web-pro",serif;
+	font-size: 18px;
+	text-align: center;
+	line-height: 1.5;
+	margin-bottom: 3em;
+}
+.painting4 img {
+	width: 1000px;
+	margin: 4em 9em;
+	position: relative;	
+}
+.view-button {
+	margin: 0 auto;
+	font-family: 'Helvetica Neue', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	background: #00b495;
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 12px;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+	border-radius: 5px;
+	width: 10em;
+}
+
 
 
 
